@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #2d3436;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card, .card-back{
+    width: 270px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.card-back{
+    background: red;
+}
+
+.card > .card-value{
+    font-size: 6em;
+}
+
+.card > .top-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card > .bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.card > .symbol{
+    font-size: 4em;
+    padding: 10px 20px;
+}
+
+
+.card-dimensions{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.card-dimensions > input {
+    margin-bottom: 5px;
+}
